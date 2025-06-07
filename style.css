@@ -116,6 +116,8 @@ li {
 
 .info-title {
     padding: 6px 15px;
+    font-size: 1em;
+    border-radius: 9px
 }
 
 li.li {
@@ -143,7 +145,7 @@ h5.p {
     padding: 60px 0 15%;
     color: rgb(250, 59, 59);
     text-shadow: 1px 1px 1px white, 2px 2px 2px red, 3px 3px 2px rgb(253, 253, 141);
-    font-size: smaller;
+    font-size: 1em;
 }
 
 .price-num {
@@ -195,6 +197,7 @@ h5.p {
     font-size: 1.2rem;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.596);
     line-height: 2;
+    text-align: justify;
 }
 
 .social {
