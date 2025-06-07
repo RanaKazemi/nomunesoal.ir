@@ -134,12 +134,12 @@ h5.p {
 .h {
     color: rgb(255, 197, 127);
     text-shadow: 1px 1px 1px black;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .price {
-    text-align: left;
-    padding: 60px 0 24px 9%;
+    text-align: center;
+    padding: 60px 0 15%;
     color: rgb(250, 59, 59);
     text-shadow: 1px 1px 1px white, 2px 2px 2px red, 3px 3px 2px rgb(253, 253, 141);
     font-size: smaller;
@@ -222,10 +222,6 @@ h5.p {
     text-shadow: none;
 }
 
-.slf {
-    font-size: 1.2em;
-}
-
 #body-footer a,
 .me {
     display: inline-flex;
@@ -250,6 +246,10 @@ h5.p {
         font-size: larger;
         padding-right: 4.2em;
     }
+
+    .h {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -269,6 +269,12 @@ h5.p {
     .final {
         padding-top: 9%;
         text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.596);
+    }
+
+    .price {
+        font-size: 1.2em;
+        padding: 60px 0 24px 9%;
+        text-align: left;
     }
 }
 
